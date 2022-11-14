@@ -29,7 +29,7 @@ export default function Navbar() {
             sx={{ flexGrow: 1, cursor: "pointer" }}
             onClick={() => navigate("/")}
           >
-            Clarusway News
+            HB News
           </Typography>
 
           {user?.email && (
