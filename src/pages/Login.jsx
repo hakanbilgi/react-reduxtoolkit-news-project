@@ -33,8 +33,7 @@ export default function Login() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-        }}
-      >
+        }}>
         <Avatar
           alt="avatar_img"
           src="https://cdn.pixabay.com/photo/2017/03/21/02/00/user-2160923_960_720.png"
@@ -74,8 +73,7 @@ export default function Login() {
             fullWidth
             variant="contained"
             color="secondary"
-            sx={{ mt: 3, mb: 2 }}
-          >
+            sx={{ mt: 3, mb: 2 }}>
             Sign In
           </Button>
         </Box>
@@ -83,8 +81,8 @@ export default function Login() {
 
       <Typography variant="body2" color="text.secondary" align="center">
         {"Copyright © "}
-        <Link color="inherit" href="https://www.clarusway.com/">
-          Clarusway
+        <Link color="inherit" href="https://www.linkedin.com/in/hakanbilgi/">
+          Hakan Bilgi
         </Link>{" "}
         {new Date().getFullYear()}
         {"."}
