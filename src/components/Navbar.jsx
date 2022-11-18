@@ -31,6 +31,7 @@ export default function Navbar() {
           >
             HB News
           </Typography>
+          
 
           {user?.email && (
             <Button color="inherit" onClick={handleLogout}>
