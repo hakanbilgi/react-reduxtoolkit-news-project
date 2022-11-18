@@ -5,7 +5,7 @@ const initialState = {
   newsList: [],
   loading: false,
   error: false,
-};
+}; 
 
 //? State'lerin API gibi async kaynaklardan gelen verilere gore guncellenmesi gerekebilir.
 //? Ancak boyle bir durumda async islem tamamlandiktan sonra state guncellenmelidir.
